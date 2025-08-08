@@ -28,7 +28,7 @@ After all of the MPC contributions, NGD will backup the results to cloud, so ple
 |Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
 |-----------|----------------------------------------------------------------|--------------------------------------------|---------|
 |NGD        |071d2176b99861f97e57020cd5ef3904299fffb1fdb8bf0994d9bbf5e36f60ad|4t51oBmnwu3UHpC35HAS3aoF2jcMtjmpL9df7vZR447r|         |
-|NSPCC      |                                                                |                                            |         |
+|NSPCC      |3446c3cc02a91df93846621f7b9d3641ca2638a0c959e2b5e03bc37823f27625|4QNXbGzU3ooJgpsR7EVawyKgtrQSDDw5BwdLYeND9gZT|         |
 |AxLabs     |                                                                |                                            |         |
 |lazynode   |                                                                |                                            |         |
 
