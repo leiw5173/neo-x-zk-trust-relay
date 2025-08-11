@@ -29,7 +29,7 @@ After all of the MPC contributions, NGD will backup the results to cloud, so ple
 |-----------|----------------------------------------------------------------|--------------------------------------------|---------|
 |NGD        |071d2176b99861f97e57020cd5ef3904299fffb1fdb8bf0994d9bbf5e36f60ad|4t51oBmnwu3UHpC35HAS3aoF2jcMtjmpL9df7vZR447r|         |
 |NSPCC      |3446c3cc02a91df93846621f7b9d3641ca2638a0c959e2b5e03bc37823f27625|4QNXbGzU3ooJgpsR7EVawyKgtrQSDDw5BwdLYeND9gZT|         |
-|AxLabs     |                                                                |                                            |         |
+|AxLabs     |4a7b705174f35e07672dbf3271cb2dfe2948b2861df4b7e98fece41fe8c3f21e|CpbUnRe4qnxQZQH1SrKqCuCXo8aBis4HsuKDeN2ghB6w|         |
 |lazynode   |                                                                |                                            |         |
 
 The beacon challenge for sealing: 
