@@ -1,18 +1,14 @@
-# mpc
+# neo-x-zk-trust-relay
 
 This is a repository for Neo X ZK-DKG MPC ceremony, please refer [bane-labs/zk-dkg](https://github.com/bane-labs/zk-dkg) about the tool and [neo-x-mpc](https://github.com/bane-labs/zk-dkg/blob/main/neo-x-mpc.md) about the steps.
 
 ## Information
 
-|Name              |Property                                    |
-|------------------|--------------------------------------------|
-|Proof System      |Groth16                                     |
-|Power of Tau      |2^24                                        |
-|Number of Circuits|3                                           |
-|NeoFS Network     |Mainnet                                     |
-|NeoFS Container   |411d8vuzogogMxXJqTQcu61btgQ6rL2VNYUYnH7r4kE3|
-
-NGD is responsible for phase initialization and sealing, so we expect the contribution order to be **NGD=>NSPCC=>AxLabs=>lazynode**.
+|Name              |Property |
+|------------------|---------|
+|Proof System      |`Groth16`|
+|Power of Tau      |`2^24`   |
+|NeoFS Network     |`Mainnet`|
 
 ## How to Contribute
 
@@ -25,46 +21,19 @@ After all of the MPC contributions, NGD will backup the results to cloud, so ple
 
 ## Phase1 Attestations
 
-|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
-|-----------|----------------------------------------------------------------|--------------------------------------------|---------|
-|NGD        |071d2176b99861f97e57020cd5ef3904299fffb1fdb8bf0994d9bbf5e36f60ad|4t51oBmnwu3UHpC35HAS3aoF2jcMtjmpL9df7vZR447r|         |
-|NSPCC      |3446c3cc02a91df93846621f7b9d3641ca2638a0c959e2b5e03bc37823f27625|4QNXbGzU3ooJgpsR7EVawyKgtrQSDDw5BwdLYeND9gZT|         |
-|AxLabs     |4a7b705174f35e07672dbf3271cb2dfe2948b2861df4b7e98fece41fe8c3f21e|CpbUnRe4qnxQZQH1SrKqCuCXo8aBis4HsuKDeN2ghB6w|         |
-|lazynode   |2a9d15f8d5dbf0117b4cbb7fd43f41ccd1be3c9409e3d6f7da4964aa6447547c|8q5JMQ6x3ELp2XkLeqtGpGGHEiqgvRXL4a6AyHHvobi2|         |
+### Existing contributions
 
-The beacon challenge for sealing: 
+Container ID: `411d8vuzogogMxXJqTQcu61btgQ6rL2VNYUYnH7r4kE3`
 
-## Phase2 Attestations
+|Participant|File Challenge                                                    |NeoFS Object ID                               |Cloud URL                                                        |
+|-----------|------------------------------------------------------------------|----------------------------------------------|-----------------------------------------------------------------|
+|NGD        |`071d2176b99861f97e57020cd5ef3904299fffb1fdb8bf0994d9bbf5e36f60ad`|`4t51oBmnwu3UHpC35HAS3aoF2jcMtjmpL9df7vZR447r`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_1_NGD     |
+|NSPCC      |`3446c3cc02a91df93846621f7b9d3641ca2638a0c959e2b5e03bc37823f27625`|`4QNXbGzU3ooJgpsR7EVawyKgtrQSDDw5BwdLYeND9gZT`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_2_NSPCC   |
+|AxLabs     |`4a7b705174f35e07672dbf3271cb2dfe2948b2861df4b7e98fece41fe8c3f21e`|`CpbUnRe4qnxQZQH1SrKqCuCXo8aBis4HsuKDeN2ghB6w`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_3_AxLabs  |
+|Lazynode   |`2a9d15f8d5dbf0117b4cbb7fd43f41ccd1be3c9409e3d6f7da4964aa6447547c`|`8q5JMQ6x3ELp2XkLeqtGpGGHEiqgvRXL4a6AyHHvobi2`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_4_Lazynode|
 
-### Circuit 1 (1-Message)
+### New contributions
 
-|Participant|File Challenge|NeoFS Object ID|Cloud URL|
-|-----------|--------------|---------------|---------|
-|NGD        |              |               |         |
-|NSPCC      |              |               |         |
-|AxLabs     |              |               |         |
-|lazynode   |              |               |         |
-
-The beacon challenge for sealing: 
-
-### Circuit 2 (2-Message)
-
-|Participant|File Challenge|NeoFS Object ID|Cloud URL|
-|-----------|--------------|---------------|---------|
-|NGD        |              |               |         |
-|NSPCC      |              |               |         |
-|AxLabs     |              |               |         |
-|lazynode   |              |               |         |
-
-The beacon challenge for sealing: 
-
-### Circuit 3 (7-Message)
-
-|Participant|File Challenge|NeoFS Object ID|Cloud URL|
-|-----------|--------------|---------------|---------|
-|NGD        |              |               |         |
-|NSPCC      |              |               |         |
-|AxLabs     |              |               |         |
-|lazynode   |              |               |         |
-
-The beacon challenge for sealing: 
+|Participant|File Challenge                                                    |NeoFS Object ID                               |Cloud URL|
+|-----------|------------------------------------------------------------------|----------------------------------------------|---------|
+|           |                                                                  |                                              |         |
