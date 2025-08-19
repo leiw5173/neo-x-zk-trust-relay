@@ -49,7 +49,7 @@ Please contribute the MPC file according to the order, upload the result through
   - Your account must follow at least 5 GitHub accounts and have at least 1 follower
 - Internet Connection: A stable and reliable internet connection is required. The most common cause of failure is a timeout due to slow or unstable uploads. 
 - Recommended Hardware:
-  - CPU: Intel Core i5 or better
+  - CPU: Intel Core i7-14700k or better
   - RAM: 16GB or more
   - Storage: 100GB or more
   - Network: Fast internet connection
